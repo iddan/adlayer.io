@@ -23,11 +23,11 @@ const IndexPage = () => (
       <p>We show seamless ads <strong>around your content</strong> where your viewers eyes are.</p>
       <p>Old advertisement areas are usually ignored because they are static and in the corners of sites usually making very little effect. Because of that they are very cheap and make very little profit for advertisers and publishers.</p>
       <p>Instead we show ads where viewers actually look - the content. To do that we detect content in your site and benefit the white space or it's surface for a timed sequence for advertisement.</p>
-      <LayersVisualization>
+      {/* <LayersVisualization>
         <Layer>
           test
         </Layer>
-      </LayersVisualization>
+      </LayersVisualization> */}
     </section>
   </div>
 );
