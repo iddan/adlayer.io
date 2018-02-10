@@ -32,7 +32,7 @@
   position: absolute;
   transform-style: preserve-3d;
   animation: layer-in .7s forwards;
-  animation-delay: .5s;
+  animation-delay: .2s;
 }
 
 .LayersVisualization .layer {
@@ -40,6 +40,9 @@
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
+  transition-property: transform;
+  transition-delay: .5s;
+  transition-duration: .7s;
 }
 
 .LayersVisualization .layer__side {
