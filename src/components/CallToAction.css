@@ -1,0 +1,15 @@
+.CallToAction button {
+  background: tomato;
+  color: white;
+  font-family: 'Crete Round', serif;
+  font-size: 16px;
+  border: none;
+  padding: .5em 1em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.CallToAction button:nth-child(n + 1) {
+  margin-right: .5em;
+}

@@ -1,0 +1,28 @@
+section {
+  max-width: 960px;
+  margin: auto;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 32px auto;
+}
+
+.color-title {
+  width: 100%;
+  max-width: 100%;
+  padding: 88px 0 94px;
+  background: palevioletred;
+  color: white;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.color-title h2 {
+  max-width: 960px;
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 38px;
+}
