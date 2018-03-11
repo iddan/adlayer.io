@@ -625,7 +625,7 @@ pre tt:after {
 footer {
   background: #444444;
   color: #A3A3A3;
-  margin-top: 35vh;
+  /* margin-top: 35vh; */
   overflow: hidden;
   padding: 16px;
   text-align: left;
