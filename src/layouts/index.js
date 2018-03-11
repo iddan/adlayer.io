@@ -7,7 +7,7 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Adlayer"
+      title="AdLayer"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
@@ -22,7 +22,7 @@ const TemplateWrapper = ({ children }) => (
       {children()}
     </div>
     <footer>
-      <h4>Adlayer</h4>
+      <h4>AdLayer</h4>
       <h5>Content in content advertisement</h5>
     </footer>
   </div>
