@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import HeroVisualization from "../components/HeroVisualization";
 import CallToAction from "../components/CallToAction";
+import demo from '../assets/demo.png'
 import "./index.css";
 import LayersVisualization, { Layer } from "../components/LayersVisualization";
 
@@ -43,6 +44,7 @@ const IndexPage = () => (
         display them in the matching content while preserving the site’s
         behaviour.
       </p>
+      <img className="demo" src={demo} alt="demo" />
     </section>
     <section>
       <p>

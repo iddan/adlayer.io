@@ -46,3 +46,9 @@ section {
   margin: 32px;
   align-self: center;
 }
+
+img.demo {
+  max-width: 80%;
+  margin: 72px auto;
+  display: block;
+}
