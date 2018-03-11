@@ -23,7 +23,7 @@ const TemplateWrapper = ({ children }) => (
     </div>
     <footer>
       <h4>Adlayer</h4>
-      <h5>Content on content advertisement</h5>
+      <h5>Content in content advertisement</h5>
     </footer>
   </div>
 )
