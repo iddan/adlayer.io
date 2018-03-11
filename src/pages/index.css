@@ -10,20 +10,39 @@ section {
   margin: 32px auto;
 }
 
-.color-title {
+.color-title,
+.greyed {
   width: 100%;
   max-width: 100%;
   padding: 88px 0 94px;
-  background: palevioletred;
-  color: white;
   display: flex;
   margin-bottom: 32px;
 }
 
-.color-title h2 {
+.color-title {
+  background: palevioletred;
+  color: white;
+}
+
+.color-title h2,
+.greyed p {
   max-width: 960px;
   margin: 0 auto;
+}
+
+.color-title h2 {
   font-weight: normal;
   font-size: 38px;
   font-family: 'Crete Round', serif;
+}
+
+.greyed {
+  background: #EEEEEE;
+  font-size: 1.2em;
+  flex-direction: column;
+}
+
+.greyed .CallToAction {
+  margin: 32px;
+  align-self: center;
 }
