@@ -630,3 +630,8 @@ footer {
   padding: 16px;
   text-align: left;
 }
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
